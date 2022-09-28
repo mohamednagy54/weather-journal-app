@@ -1,0 +1,251 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+
+.heading {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+
+
+}
+
+
+.zip {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#zip {
+    width: 300px;
+    height: 40px;
+    background: rgba(15, 15, 15, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(15, 15, 15, 0.08);
+    color: #fff;
+    font-size: 18px;
+
+
+
+}
+
+#zip::placeholder {
+    color: #fff;
+}
+
+
+.zip small {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: rgb(255, 0, 0);
+    margin-top: 1px;
+    border-radius: 0 0 20px 20px;
+    text-transform: capitalize;
+    display: none;
+}
+
+
+
+
+#generate {
+    display: block;
+    text-align: center;
+    padding: 0.3em 1.2em;
+    margin: 1rem 0;
+    border-radius: 2em;
+    font-weight: 300;
+    color: #ffffff;
+    background: rgba(11, 17, 125, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(148, 149, 156, 0.3);
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#generate:hover {
+    border: 1px solid #fff;
+}
+
+.feel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+
+
+}
+
+
+
+
+
+.feel .myInput {
+    outline: none;
+    resize: none;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+
+
+
+
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+
+}
+
+.feel .myInput::placeholder {
+    color: #fff;
+}
+
+
+.feel .myInput:hover {
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+.entry {
+    position: relative;
+    width: 700px;
+    height: 300px;
+
+
+
+
+    background: rgba(15, 15, 15, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(15, 15, 15, 0.08);
+    overflow: hidden;
+
+
+
+}
+
+.big-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 50px;
+    transition: 0.5s;
+}
+
+
+
+#cityName {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: 1rem;
+}
+
+#entryHolder {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    max-width: 300px;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+    overflow-wrap: break-word;
+
+
+
+
+
+}
+
+
+#date {
+    margin: 0.5rem 1rem;
+}
+
+#temp {
+    margin: 0.5rem 1rem;
+}
+
+#content {
+    margin: 1rem 0.5rem;
+    width: 100%;
+
+}
+
+
+
+
+#imgHolder {
+    text-align: center;
+    display: inline-block;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 200px;
+    height: 100%;
+
+}
+
+
+#img-desc {
+    margin-top: -1rem;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+}

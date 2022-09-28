@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+
+
+        <!-- Zip code -->
+        <div class="holder zip">
+            <input type="text" id="zip" name="zip-name" placeholder="Type ZipCode.." required>
+            <small id="error"></small>
+        </div>
+
+        <div class="holder feel">
+            <textarea class="myInput" id="feelings" placeholder="Enter your feelings here" rows="5"
+                cols="50"></textarea>
+            <button class="generate" id="generate" type="submit"> Generate </button>
+        </div>
+
+
+
+        <div class="holder entry">
+
+            <div id="cityName"></div>
+            <div class="big-holder">
+
+                <div id="entryHolder">
+                    <div id="date"></div>
+                    <div id="temp"></div>
+                    <p id="content"></p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
